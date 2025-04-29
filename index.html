@@ -9,56 +9,47 @@
     header, footer { background-color: #000; color: #fff; text-align: center; padding: 40px 20px; }
     section { padding: 60px 20px; text-align: center; }
     img { max-width: 100%; height: auto; }
-    .hero-image {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  display: block;
-  margin: 20px auto;
-  border-radius: 8px;
-}
-.intro-image {
-  width: 400px;
-  height: auto;
-  margin: 10px;
-}
+    .square-image {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 8px;
+    }
     .product-gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
-    .product-gallery img { width: 250px; height: 250px; object-fit: cover; }
-    .social-icons img { width: 30px; margin: 0 10px; }
+    .footer-logo { height: 60px; }
   </style>
 </head>
 <body>
 
   <!-- ヘッダー -->
   <header>
-    <img src="Jolijoulogo.jpg" alt="Logo" style="height:80px;">
+    <img src="Jolijoulogo.jpg" alt="Logo" class="square-image">
     <h1>Premium Pre-loved Bags from JAPAN</h1>
-    <img src="TAKUMI.jpg" alt="Hero Image" class="hero-image">
+    <img src="Showroom.jpg" alt="Hero Image" class="square-image">
   </header>
 
   <!-- イントロ -->
   <section>
     <h2>About Us</h2>
     <p>Trusted team and warehouse directly from Japan</p>
-    <img src="Team1.jpg" alt="Team Photo">
-    <img src="Team2.jpg" alt="Warehouse Photo">
+    <img src="Team1.jpg" alt="Team Photo" class="square-image">
+    <img src="Team2.jpg" alt="Warehouse Photo" class="square-image">
   </section>
 
   <!-- 商品紹介 -->
   <section>
     <h2>Our Products</h2>
     <div class="product-gallery">
-      <img src="Showroom.jpg" alt="CHANEL Bag 1">
-      <img src="OKAZAKI.jpg" alt="CHANEL Bag 2">
-      <img src="Team3.jpg" alt="CHANEL Collection">
+      <img src="TAKUMI.jpg" alt="CHANEL Bag 1" class="square-image">
+      <img src="OKAZAKI.jpg" alt="CHANEL Bag 2" class="square-image">
+      <img src="Team3.jpg" alt="CHANEL Collection" class="square-image">
     </div>
   </section>
 
-  <!-- 保証セクション（現在省略，因無對應照片） -->
-
   <!-- フッター -->
   <footer>
-    <img src="Jolijoulogo.jpg" alt="Logo" style="height:60px;">
+    <img src="Jolijoulogo.jpg" alt="Logo" class="footer-logo">
     <p>Contact us: wholesale@jolijou-jp.com</p>
     <p>&copy; 2025 Jolijou Japan. All rights reserved.</p>
   </footer>
